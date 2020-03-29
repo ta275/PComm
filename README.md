@@ -10,7 +10,9 @@ to design the software in such a way that it's easily extensible so that it can 
 Features:
 * Written in C so it's super-fast
 	
-* Careful object-oriented design done in C, hence easy to use, extensible, and easily modifiable: "WHAT!! But C is not an object-oriented programming language!" - Have a look at this {http://faculty.washington.edu/gmobus/Academics/TCES202/Moodle/OO-ProgrammingInC.html} webpage from WashU.
+* Careful object-oriented design done in C, hence easy to use, extensible, and easily modifiable.
+
+* "WHAT!! But C is not an object-oriented programming language!" - Have a look at this {http://faculty.washington.edu/gmobus/Academics/TCES202/Moodle/OO-ProgrammingInC.html} webpage from WashU.
 
 * Supports master->slave configuration between a Raspberry Pi 3B+ and AVR microcontrollers.
 
