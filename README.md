@@ -8,19 +8,17 @@ to provide a fast, parallel communication protocol for communication between two
 to design the software in such a way that it's easily extensible so that it can support many new features
 
 Features:
-	Written in C so it's super-fast
+* Written in C so it's super-fast
 	
-	Careful object-oriented design done in C, hence easy to use, extensible, and easily modifiable
+* Careful object-oriented design done in C, hence easy to use, extensible, and easily modifiable: "WHAT!! But C is not an object-oriented programming language!" - Have a look at this {http://faculty.washington.edu/gmobus/Academics/TCES202/Moodle/OO-ProgrammingInC.html} webpage from WashU.
 
-	"WHAT!! But C is not an object-oriented programming language!" - Have a look at this {http://faculty.washington.edu/gmobus/Academics/TCES202/Moodle/OO-ProgrammingInC.html} webpage from WashU.
+* Supports master->slave configuration between a Raspberry Pi 3B+ and AVR microcontrollers.
 
-	Supports master->slave configuration between a Raspberry Pi 3B+ and AVR microcontrollers.
+* Parallel 8-bit synchronous communication protocol, with estimated 5x speedup over the UART serial protocol.
 
-	Parallel 8-bit synchronous communication protocol, with estimated 5x speedup over the UART serial protocol.
+* The protocol is actually an n-bit protocol, the speedup can be even higher if more bits are used.
 
-	The protocol is actually an n-bit protocol, the speedup can be even higher if more bits are used.
-
-	Synchrony is independent of clock speeds of the platforms, i.e, don't have to worry about mismatch in clock speeds.
+* Synchrony is independent of clock speeds of the platforms, i.e, don't have to worry about mismatch in clock speeds.
 
 
 
