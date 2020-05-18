@@ -29,7 +29,7 @@ All said and done, there are still many improvements that can be made, component
 
 The biggest advantage of the software along with the protocol is its wide applicability. The protocol requires a minimum of 2-bits (i.e, 2 GPIOs). So it can be used "like" a serial communication protocol, but it might be slower than traditional protocols. But instead, if you wish to use more GPIOs, then you can increase the speed significantly. And most importantly, you don't have to worry about the timing of the pins. It's a win-win for embedded developers and software developers alike - saving their time and effort!
 
-The code currently supports master->slave (unidirectional) configuration but can be easily extended bidirectional communication and many platforms.
+The code currently supports master->slave (unidirectional) configuration but can be easily extended for bidirectional communication on different platforms.
 
 The current code is meant for communication between a Raspberry Pi 3B+ and AVR microcontrollers.
 
