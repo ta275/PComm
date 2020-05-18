@@ -12,7 +12,7 @@ Features:
 	
 * Careful object-oriented design done in C, hence easy to use, extensible, and easily modifiable.
 
-* "WHAT!! But C is not an object-oriented programming language!" - Have a look at this [webpage](http://faculty.washington.edu/gmobus/Academics/TCES202/Moodle/OO-ProgrammingInC.html) webpage from WashU.
+* "WHAT!! But C is not an object-oriented programming language!" - Have a look at [this] (http://faculty.washington.edu/gmobus/Academics/TCES202/Moodle/OO-ProgrammingInC.html) webpage from WashU.
 
 * Supports master->slave configuration between a Raspberry Pi 3B+ and AVR microcontrollers.
 
